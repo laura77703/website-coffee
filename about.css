@@ -1,0 +1,158 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   text-decoration:none;
+   border:none;
+   outline:none;
+   font-family:sans-serif;
+}
+:root{
+    --color-red: #8f2a2a;
+    --color-dark-gray:#212121;
+    --color-white: #ffffff;
+    --color-black:#000000;
+}
+
+html{
+    font-size:90%;
+}
+
+body{
+    font-family:sans-serif;
+    font-weight:400;
+    font-size:16px;
+    overflow-x:hidden;
+    background-color:black;
+    color:white;
+}
+
+
+header{
+    margin-top:20px;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:1rem 9%;
+    background-color:transparent;
+    filter:drop-shadow(10px);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:100;
+  
+}
+
+.logo{
+    font-size:3rem;
+    color:rgb(230, 213, 201);
+    font-weight:800;
+    cursor:pointer;
+    transition:0.5s ease;
+}
+
+.logo.hover{
+    transform:scale(1.1);
+}
+
+nav a{
+    font-size:1.8rem;
+    color:white;
+    margin-left:4rem;
+    font-weight:500;
+    transition:0.3s ease;
+    border-bottom:3px solid transparent;
+
+}
+
+nav a:hover,
+nav a.active{
+    color:rgb(230, 213, 201);  
+    border-bottom:3px solid #8f2a2a;
+}
+
+.menu-icon{
+    display:none;
+    font-size:30px;
+    color:white;
+    cursor:pointer;
+}
+
+.nav-links{
+    transition: 0.5s;
+}
+
+
+.about-section{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding-top:150px;
+    padding-left:80px;
+    padding-right:80px;
+
+    gap:80px;
+}
+
+.about-text{
+    width:50%;
+    color:white;
+}
+
+.about-image{
+    width:50%;
+}
+
+.about-image img{
+    width:100%;
+    max-width:500px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:995px){
+nav{
+    
+ display:flex;
+ flex-direction: column-reverse;
+}
+
+.nav-container{
+    display:none;
+}
+
+.nav-container .links{
+    display:none;
+}
+  
+.nav-links{
+    display:none;
+}
+
+.menu-icon{
+    display:block;
+}
+
+
+.nav-links{
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        background: black;
+        transform: translateY(-500px);
+    }
+
+    .menu-icon{
+        display: block;
+    }
+}
+

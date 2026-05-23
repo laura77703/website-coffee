@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caffee</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<header> 
+  <a href="#" class="logo">
+     <img src="favicon.png" alt="logo">Urban Café</a>
+   <i class="fa-solid fa-bars menu-icon" onclick="toggleMenu()"></i>
+
+  <nav class="navbar">
+    <a href="index2.html">Home</a>
+    <a href="about.html">About us</a>
+    <a href="menu.html" class="active">Menu</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="menu-hero">
+  <p>Urban Café</p>
+  <h1>Menu</h1>
+  <div class="menu-line"></div>
+</section>
+
+<section class="menu-section">
+  <h3>Cold Drinks</h3>
+
+  <div class="slider-row">
+    <button class="slide-btn" onclick="moveLeft(this)">‹</button>
+
+    <div class="menu-wrapper">
+      <div class="menu-item">
+        <img src="Iced Latte.jpg" alt="Iced Latte">
+        <h4>Iced Latte</h4>
+       
+        <strong>$4.00</strong>
+      </div>
+
+      <div class="menu-item">
+        <img src="icedmocha.jpg" alt="Iced Mocha">
+        <h4>Iced Mocha</h4>
+       
+        <strong>$4.50</strong>
+      </div>
+
+      <div class="menu-item">
+        <img src="vanillafrappe.jpg" alt="Vanilla Frappe">
+        <h4>Vanilla Frappe</h4>
+        
+        <strong>$5.00</strong>
+      </div>
+       <div class="menu-item">
+        <img src="icedcappuccino.jpg" alt="Vanilla Frappe">
+        <h4>Iced Cappuccino</h4>
+        
+        <strong>$5.00</strong>
+      </div>
+      
+       
+
+       
+
+
+    </div>
+
+    <button class="slide-btn" onclick="moveRight(this)">›</button>
+  </div>
+</section>
+
+<section class="menu-section dark-menu">
+  <h3>Warm Drinks</h3>
+
+  <div class="slider-row">
+    <button class="slide-btn" onclick="moveLeft(this)">‹</button>
+
+    <div class="menu-wrapper">
+      <div class="menu-item">
+        <img src="Black coffee.jpg" alt="Black Coffee">
+        <h4>Black Coffee</h4>
+      
+        <strong>$4.20</strong>
+      </div>
+
+      <div class="menu-item">
+        <img src="caramel mocha.jpg" alt="Strawberry Soda">
+        <h4>Caramel Mocha</h4>
+     
+        <strong>$5.50</strong>
+      </div>
+
+      <div class="menu-item">
+        <img src="hazelnut cappucino.jpg" alt="Lemon Iced Tea">
+        <h4>Hazelnut Cappuccino</h4>
+      
+        <strong>$4.60</strong>
+      </div>
+      <div class="menu-item">
+        <img src="Caffè Americano.jpg" alt="Lemon Iced Tea">
+        <h4>Caffè Americano</h4>
+      
+        <strong>$3.60</strong>
+      </div>
+
+
+    </div>
+
+    <button class="slide-btn" onclick="moveRight(this)">›</button>
+  </div>
+</section>
+
+<section class="menu-section">
+  <h3>Matcha</h3>
+
+  <div class="slider-row">
+    <button class="slide-btn" onclick="moveLeft(this)">‹</button>
+
+    <div class="menu-wrapper">
+      <div class="menu-item">
+        <img src="Strawberry Matcha.jpg" alt="Strawberry Matcha">
+        <h4>Strawberry Matcha Latte</h4>
+   
+        <strong>$5.20</strong>
+      </div>
+
+      <div class="menu-item">
+        <img src="matcha normal.jpg" alt="Iced Matcha Latte">
+        <h4>Iced Matcha Latte</h4>
+       
+        <strong>$4.90</strong>
+      </div>
+
+      <div class="menu-item">
+        <img src="Vanilla matcha.jpg" alt="Vanilla Latte">
+        <h4>Vanilla Matcha Latte</h4>
+       
+        <strong>$4.90</strong>
+      </div>
+
+      <div class="menu-item">
+        <img src="blueberry matcha.jpg" alt="Blueberry Matcha">
+        <h4>Blueberry Matcha Latte</h4>
+        
+        <strong>$5.40</strong>
+      </div>
+    </div>
+
+    <button class="slide-btn" onclick="moveRight(this)">›</button>
+  </div>
+</section>
+
+
+
+<section class="footer">
+  <div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+  </div>
+
+  <p>Copyright © 2026 All rights reserved by Mitrofan Laura</p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
