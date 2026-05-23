@@ -815,18 +815,19 @@ img{
 
 .menu-hero{
     height:35vh;
+    background-image:
+      linear-gradient(rgba(0,0,0,0.58), rgba(0,0,0,0.58)),
+      url("coffee11.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    padding-top:80px;
-    background:
-    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url(coffee2.jpg);
-    background-size:cover;
-    background-position:center;
+    text-align:center;
+    padding-top:100px;
 }
-
 .menu-hero p{
     color:#d4b08a;
     font-size:1.2rem;
@@ -837,7 +838,7 @@ img{
 
 .menu-hero h1{
     color:white;
-    font-size:6rem;
+    font-size:4.5rem;
     margin-bottom:20px;
 }
 
