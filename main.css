@@ -1598,14 +1598,29 @@ img{
 
 @media(max-width:900px){
 
-    .menu-hero{
-        height:30vh;
-        padding-top:80px;
+   .menu-hero{
+        height:180px;
+        padding-top:0;
+        background-size:cover;
+        background-position:center center;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    }
+   .menu-hero h1{
+        font-size:3.5rem;
+        line-height:1;
+        margin:0 0 18px;
     }
 
-    .menu-hero h1{
-        font-size:4rem;
+    
+    .menu-line{
+        width:170px;
+        height:5px;
     }
+
 
     .menu-section{
         min-height:auto;
