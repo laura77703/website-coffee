@@ -1329,6 +1329,54 @@ img{
   }
 }
 
+@media(max-width:768px){
+
+  .wrapper-header-content{
+    min-height:80vh;
+    padding:130px 20px 60px;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+  }
+
+  .header-content{
+    width:100%;
+    max-width:360px;
+    margin:0 auto;
+  }
+
+  .header-content > div{
+    width:100%;
+    padding:30px 22px;
+    border-radius:16px;
+    text-align:center;
+  }
+
+  .header-content h1{
+    font-size:42px;
+    line-height:1.1;
+  }
+
+  .header-content p{
+    font-size:15px;
+    line-height:1.6;
+  }
+}
+
+@media(max-width:480px){
+
+  .wrapper-header-content{
+    min-height:75vh;
+    padding:120px 18px 50px;
+    background-position:center top;
+  }
+
+  .header-content h1{
+    font-size:36px;
+  }
+}
+
 /* ABOUT MOBILE */
 
 
