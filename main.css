@@ -14,8 +14,13 @@
     --color-black:#000000;
 }
 
-html{
-    font-size:90%;
+html,
+body{
+  margin:0;
+  padding:0;
+  width:100%;
+  max-width:100%;
+  overflow-x:hidden;
 }
 
 body{
@@ -39,7 +44,7 @@ header{
     top:0;
     left:0;
     width:100%;
-    padding:1rem 9%;
+    padding:1rem 5%;
     background-color:#1b140f;
     display:flex;
     justify-content:space-between;
